@@ -16,6 +16,8 @@ LABEL maintainer="frank.foerster@ime.fraunhofer.de" \
 
 WORKDIR /opt
 
+ENV PATH=/opt/barrnap/bin/:"$PATH"
+
 RUN apt update && \
     apt install --yes \
 	build-essential \
@@ -26,6 +28,10 @@ RUN apt update && \
 	default-jre \
 	bioperl && \
     cpan Bio::Perl && \
+    git clone https://github.com/tseemann/barrnap.git /opt/barrnap && \
+    cd /opt/barrnap && \
+    git checkout 0.9 && \
+    rm -rf .git && \
     git clone https://github.com/tseemann/prokka.git /opt/prokka && \
     cd /opt/prokka && \
     git checkout v1.13.4 && \
