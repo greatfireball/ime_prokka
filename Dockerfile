@@ -30,4 +30,13 @@ RUN apt update && \
     cd /opt/prokka && \
     git checkout master && \
     rm -rf .git && \
-    /opt/prokka/bin/prokka --setupdb
+    /opt/prokka/bin/prokka --setupdb && \
+    apt --yes remove \
+        git \
+	build-essential && \
+    apt --yes autoremove && \
+    apt --yes autoclean && \
+    apt --yes clean && \
+    rm -rf /var/lib/apt/lists/*
+
+ENV PATH=/opt/prokka/bin/:"$PATH"
