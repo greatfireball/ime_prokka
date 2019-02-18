@@ -45,22 +45,19 @@ SeqFilter releases. Latest release is
 
 | Version/Branch | Commit in Docker Repo | Image |
 | -------------- | --------------------- | ----- |
-|
-  [![](https://images.microbadger.com/badges/version/greatfireball/ime_prokka:master.svg)](https://microbadger.com/images/greatfireball/ime_prokka:master
+| [![](https://images.microbadger.com/badges/version/greatfireball/ime_prokka:master.svg)](https://microbadger.com/images/greatfireball/ime_prokka:master
   "Get your own version badge on microbadger.com") |
   [![](https://images.microbadger.com/badges/commit/greatfireball/ime_prokka:master.svg)](https://microbadger.com/images/greatfireball/ime_prokka:master
   "Get your own commit badge on microbadger.com") |
   [![](https://images.microbadger.com/badges/image/greatfireball/ime_prokka:master.svg)](https://microbadger.com/images/greatfireball/ime_prokka:master
   "Get your own image badge on microbadger.com") |
-|
-  [![](https://images.microbadger.com/badges/version/greatfireball/ime_prokka:develop.svg)](https://microbadger.com/images/greatfireball/ime_prokka:develop
+| [![](https://images.microbadger.com/badges/version/greatfireball/ime_prokka:develop.svg)](https://microbadger.com/images/greatfireball/ime_prokka:develop
   "Get your own version badge on microbadger.com") |
   [![](https://images.microbadger.com/badges/commit/greatfireball/ime_prokka:develop.svg)](https://microbadger.com/images/greatfireball/ime_prokka:develop
   "Get your own commit badge on microbadger.com") |
   [![](https://images.microbadger.com/badges/image/greatfireball/ime_prokka:develop.svg)](https://microbadger.com/images/greatfireball/ime_prokka:develop
   "Get your own image badge on microbadger.com") |
-|
-  [![](https://images.microbadger.com/badges/version/greatfireball/ime_prokka:v1.13.4.svg)](https://microbadger.com/images/greatfireball/ime_prokka:v1.13.4
+| [![](https://images.microbadger.com/badges/version/greatfireball/ime_prokka:v1.13.4.svg)](https://microbadger.com/images/greatfireball/ime_prokka:v1.13.4
   "Get your own version badge on microbadger.com") |
   [![](https://images.microbadger.com/badges/commit/greatfireball/ime_prokka:v1.13.4.svg)](https://microbadger.com/images/greatfireball/ime_prokka:v1.13.4
   "Get your own commit badge on microbadger.com") |
