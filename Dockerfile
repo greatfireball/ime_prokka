@@ -40,3 +40,6 @@ RUN apt update && \
     rm -rf /var/lib/apt/lists/*
 
 ENV PATH=/opt/prokka/bin/:"$PATH"
+
+VOLUME /data
+WORKDIR /data
