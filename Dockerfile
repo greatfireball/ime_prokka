@@ -28,7 +28,7 @@ RUN apt update && \
     cpan Bio::Perl && \
     git clone https://github.com/tseemann/prokka.git /opt/prokka && \
     cd /opt/prokka && \
-    git checkout master && \
+    git checkout v1.13.4 && \
     rm -rf .git && \
     /opt/prokka/bin/prokka --setupdb && \
     apt --yes remove \
