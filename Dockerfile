@@ -43,3 +43,5 @@ ENV PATH=/opt/prokka/bin/:"$PATH"
 
 VOLUME /data
 WORKDIR /data
+
+ENTRYPOINT ["prokka"]
