@@ -12,6 +12,7 @@ WORKDIR /opt
 
 RUN apt update && \
     apt install --yes \
+	build-essential \
 	libdatetime-perl \
 	libxml-simple-perl \
 	libdigest-md5-perl \
