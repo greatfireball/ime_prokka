@@ -35,6 +35,7 @@ RUN apt update && \
         git \
 	build-essential && \
     apt --yes autoremove && \
+    apt --yes install less && \
     apt --yes autoclean && \
     apt --yes clean && \
     rm -rf /var/lib/apt/lists/*
